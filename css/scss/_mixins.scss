@@ -1,0 +1,18 @@
+// imports
+@import "variables";
+
+// Mixin
+@mixin button-border {
+  display: inline-block;
+  padding: 8px 18px;
+  text-align: center;
+  color: $color-white;
+  border: 2px solid $color-primary-button;
+  border-radius: 4px;
+}
+
+@mixin container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

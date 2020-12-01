@@ -1,0 +1,10 @@
+// imports
+@import "variables";
+@import "mixins";
+
+header {
+  @include container();
+  background-color: $bg-primary-header;
+  color: $color-white;
+  text-align: center;
+}

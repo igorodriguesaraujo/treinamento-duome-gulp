@@ -1,0 +1,7 @@
+.button-border {
+  display: inline-block;
+  padding: 8px 18px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #00f;
+  border-radius: 4px; }

@@ -1,0 +1,7 @@
+// imports
+@import "mixins";
+
+// General
+.button-border {
+  @include button-border();
+}

@@ -1,0 +1,28 @@
+// imports
+@import "variables";
+
+// Global
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  font-family: Arial, Helvetica, sans-serif;
+  main {
+    text-align: center;
+    img {
+      display: block;
+      max-width: 600px;
+      height: auto;
+      margin: 0 auto;
+
+      border-radius: 6px;
+    }
+  }
+}
+h1 {
+  color: $color-primary-text;
+  text-transform: uppercase;
+}

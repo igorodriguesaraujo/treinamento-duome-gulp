@@ -1,0 +1,13 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+button,
+button[type="submit"],
+input {
+  outline: none; }
